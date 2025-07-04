@@ -806,10 +806,9 @@
     .hamburger,
     .close-btn {
         display: block;
-        cursor: pointer;
-        font-size: 24px;
-        padding: 10px;
-        color: #fff;
+      cursor: pointer;
+        /* padding: 10px; */
+       
     }
 
     /* .close-btn {
@@ -879,6 +878,8 @@
     .mobile_nav_header {
         display: flex;
         border-bottom: 1px solid #fff;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     .header_mobile_nav_active {
@@ -1171,7 +1172,7 @@
     } */
     .close-btn {
         display: block;
-        top: -5px;
+        /* top: -5px; */
         color: #fff;
         position: absolute;
         left: 260px;
@@ -1811,7 +1812,6 @@
 
     .close-btn {
         display: block;
-        top: -9px;
         color: #fff;
         position: absolute;
         left: 205px;
@@ -1989,7 +1989,6 @@
 
     .close-btn {
         display: block;
-        top: -9px;
         color: #fff;
         position: absolute;
         left: 204px;
@@ -2175,7 +2174,7 @@
 
     .hamburger,
     .close-btn {
-        margin-left: 247px;
+        /* margin-left: 247px; */
     }
 
 
@@ -2248,7 +2247,7 @@
 
     .hamburger,
     .close-btn {
-        margin-left: -39px;
+        /* margin-left: -39px; */
     }
 
     .content_proposal_form a img {
@@ -2337,7 +2336,7 @@
 
     .close-btn {
         margin-left: -55px;
-        margin-top: 3px;
+        /* margin-top: 3px; */
         font-size: 19px;
     }
 
@@ -2346,7 +2345,7 @@
     }
 
     .hamburger {
-        margin-left: -25px;
+        /* margin-left: -25px; */
         margin-top: 3px;
         font-size: 21px;
     }
@@ -2640,11 +2639,29 @@
     }
 
     .top_header_login_btn .login_btn {
-        display: none;
+        /* display: none; */
     }
-
+.header_nav {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    z-index: 9999;
+    /* box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5); */
+    font-size: 18px;
+    background: gray;
+    /* padding: 0 20px; */
+    /* right: 417px; */
+    /* left: 0; */
+    width: 80%;
+    left: -80%;
+    transition: left 0.3s ease;
+    background-color: #006726;
+}
+.header_mobile_nav_active {
+    left: 0;
+}
     .hamburger {
-        margin-left: 256px;
+        /* margin-left: 256px; */
         margin-top: 3px;
         font-size: 21px;
     }
@@ -2744,7 +2761,7 @@
     }
 
     .close-btn {
-        margin-left: -66px;
+        margin-left: -0;
         margin-top: 3px;
         font-size: 21px;
     }
@@ -2841,15 +2858,16 @@
 
     .hamburger,
     .close-btn {
-        margin-left: -85px;
+   
         margin-top: 7px;
         font-size: 17px;
     }
 
     .hamburger {
-        margin-left: 231px;
+        /* margin-left: 231px; */
         margin-top: 3px;
         font-size: 21px;
+        margin-right: 0;
     }
 
     .main_header .header_main_nav ul li a {
